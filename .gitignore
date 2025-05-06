@@ -1,0 +1,32 @@
+
+---
+
+### ✅ `.gitignore`
+
+Save this as `.gitignore`:
+
+```gitignore
+# Flutter & Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IntelliJ/VSCode/Android Studio
+.idea/
+.vscode/
+*.iml
+
+# macOS/iOS
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Android
+android/.gradle/
+android/app/key.properties
